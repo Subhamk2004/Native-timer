@@ -23,20 +23,20 @@ const TabsLayout = () => {
                 }}
             >
                 <Tabs.Screen
-                    name="home"
+                    name="timer"
                     options={{
                         headerShown: false,
                         tabBarIcon: (() => {
-                            <TabsIcon name="Home" />
+                            <TabsIcon name="Timer" />
                         })
                     }}
                 />
                 <Tabs.Screen
-                    name="profile"
+                    name="clock"
                     options={{
                         headerShown: false,
                         tabBarIcon: (() => {
-                            <TabsIcon name="Profile" />
+                            <TabsIcon name="Clock" />
                         })
                     }}
                 />

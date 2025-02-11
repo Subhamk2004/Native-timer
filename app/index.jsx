@@ -21,7 +21,7 @@ export default function Index() {
             {/* Action Button */}
             <TouchableOpacity
                 className="bg-green-600 py-3 px-6 rounded-full flex-row items-center shadow-lg"
-                onPress={() => router.push("./home")}
+                onPress={() => router.push("./timer")}
             >
                 <MaterialIcons
                     name="play-arrow"
