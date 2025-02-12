@@ -23,6 +23,8 @@ function clock() {
         let ti = setInterval(() => {
             setTimer(new Date());
         }, [1000])
+
+        return () => clearInterval(ti);
     }, [])
 
     let hrs = timer.getHours();
